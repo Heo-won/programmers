@@ -9,7 +9,7 @@ function solution(sides) {
     answer = 2;
   }
   return answer;
-}
+} 
 
 //다른 풀이
 function solution(sides) {
