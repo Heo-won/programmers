@@ -1,4 +1,15 @@
 function solution(my_string) {
+    
+    const str = 'aeiou'
+    let answer = my_string.split('').filter((el)=>(!str.includes(el))).join('')
+    
+    return answer
+    
+}
+
+
+//다른 풀이
+function solution(my_string) {
     const str = 'aeiou'
     
     let newString = my_string.split('')
